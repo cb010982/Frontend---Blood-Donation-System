@@ -1,0 +1,103 @@
+
+.tablemain {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width:100%;
+    margin-top:10px;
+  }
+
+
+  
+  .tablecover{
+  background-color:whitesmoke;
+  width:70%;
+  margin-left:12%;
+  height:auto;
+  padding:5%;
+  }
+
+  .tablename{
+    font-size:20px;
+    margin-left:30%;
+  }
+
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    font-size:15px; 
+    border-bottom: 1px solid rgb(215, 215, 215);
+  }
+  
+  .submitbutton{
+    color: rgb(255, 255, 255);
+    border-radius:22px;
+    border: 2px solid rgb(0, 0, 0);
+    padding:8px;
+    width:20%;
+    background-color: black;
+    margin-left:75%;
+    margin-top:2%;
+  }
+
+.inputnum{
+  width:52px;
+}
+
+  .submitbutton:hover {
+    background-color: gray;
+    color: white;
+  }
+
+  th {
+    font-weight:lighter;
+    color:#9f9d9d;
+    background-color: whitesmoke;
+    font-size:14px;  
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgb(229, 229, 229);
+  }
+
+  .search{
+    width:50%;
+    border: 1px solid #d3d3d3;
+    border-radius: 25px;
+    height:40px;
+    padding:12px;
+    margin: 20px;
+    margin-left: 60px;
+    background-color: #ffffff;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+  
+    th, td {
+      font-size: 10px;
+    }
+   
+    .App table {
+      font-size: 14px;
+      margin-left:-16%;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+  
+  table{
+    margin-left: 4px!important;
+    padding:0px;
+  }
+  th, td {
+    font-size: 8px;
+    padding:0px;
+  }
+  
+  }
+ 
+  
+  
